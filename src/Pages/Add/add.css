@@ -1,0 +1,160 @@
+.post_add {
+  display: flex;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 20px;
+}
+
+.post_form {
+  padding: 40px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 700px; 
+}
+
+.post_form div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post_form label {
+  color: #333; 
+  font-size: 16px;
+  width: 30%; 
+  margin-right: 15px;
+}
+
+.post_form input[type="text"],
+.post_form textarea {
+  width: 70%; 
+  border: 1px solid #ccc;
+  padding: 12px;
+  background-color: #fff; 
+  color: #333; 
+  font-size: 16px;
+  border-radius: 4px;
+  resize: none;
+}
+
+.phone_number input, #price {
+  width: 70%; 
+  border: 1px solid #ccc;
+  padding: 12px;
+  background-color: #fff; 
+  color: #333; 
+  font-size: 16px;
+  border-radius: 4px;
+  resize: none;
+}
+
+.post_form input[type="text"]::placeholder,
+.post_form textarea::placeholder {
+  color: #999;
+}
+
+.phone_number input::placeholder, #price::placeholder{
+  color: #999;
+}
+
+.post_form input[type="text"]:focus,
+.post_form textarea:focus {
+  border-color: #666; 
+  outline: none;
+}
+
+.phone_number input:focus, #price:focus {
+  border-color: #666;
+  outline: none;
+}
+
+.post_add span {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  color: #333; 
+}
+
+.submit_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.submit_button button {
+  background-color: #4c4c4c;
+  color: #e0e0e0;
+  border: 2px solid #555;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.submit_button button:hover {
+  background-color: #555;
+  border-color: #666;
+}
+
+.submit_button button:active {
+  background-color: #333;
+  border-color: #444;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload input[type="file"] {
+  margin-top: 10px;
+}
+
+.upload_image {
+  width: 800px;
+  margin-top: 20px;
+
+  input {
+    display: none;
+  }
+}
+
+.upload_image label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.upload_image .image_previews {
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 10px; 
+  margin-left: 40px;
+  position: relative;
+
+ 
+}
+
+.upload_image .image_previews div {
+  width: 140px; 
+  height: 140px;
+  background-size: cover; 
+  background-position: center; 
+  border: 1px solid #ccc; 
+ 
+}
+
+.delete-img {
+  cursor: pointer;
+  font-size: 20px;
+  color: red;
+  margin-left: -10px;
+  color: rgb(0, 0, 0);
+  z-index: 999;
+  border-radius: 50%;
+  align-self: flex-start;
+}

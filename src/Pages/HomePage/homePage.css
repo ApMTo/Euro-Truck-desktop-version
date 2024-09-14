@@ -1,0 +1,39 @@
+.heading_title {
+  background-image: url('../../Images//headingTitleImage.png');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.heading {
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.heading_greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    h4 {
+        color: white;
+        font-size: 32px;
+    }
+    span {
+        width: 550px;
+        color: rgb(228, 219, 219);
+        text-align: center;
+        padding-top: 16px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+}
